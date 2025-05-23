@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>System of a Down - Tribute</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <div class="loader-wrapper">
+        <div class="loader"></div>
+    </div>
+
+    <div class="colorblind-options">
+        <select id="colorblindFilter">
+            <option value="none">Modo de Cor Normal</option>
+            <option value="protanopia">Protanopia</option>
+            <option value="deuteranopia">Deuteranopia</option>
+            <option value="tritanopia">Tritanopia</option>
+            <option value="achromatopsia">Preto e Branco</option>
+        </select>
+    </div>
+ 
+
+    <header class="header">
+        <div class="header-content">
+            <h1 class="glitch" data-text="SYSTEM OF A DOWN">SYSTEM OF A DOWN</h1>
+            <p class="subtitle"><b>Fan page</b></p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="nav-container">
+            <a href="#sobre" class="nav-link"><i class="fas fa-info-circle"></i>Sobre</a>
+            <a href="#membros" class="nav-link"><i class="fas fa-users"></i>Membros</a>
+            <a href="#albuns" class="nav-link"><i class="fas fa-compact-disc"></i>Álbuns</a>
+            <a href="#curiosidades" class="nav-link"><i class="fas fa-question"></i>Curiosidades</a>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section id="sobre" class="section fade-in">
+            <h2 class="section-title">Sobre a Banda</h2>
+            <div class="content-wrapper">
+                <img src="https://i.pinimg.com/736x/46/63/d5/4663d581c95734dcde7d3d9db5309f06.jpg" 
+                     alt="System of a Down" 
+                     class="band-photo">
+                <p class="band-bio">System of a Down é uma banda de metal alternativo formada em Los Angeles em 1994. Conhecida por suas letras politizadas e mistura única de heavy metal com elementos de música tradicional armênia.</p>
+            </div>
+        </section>
+
+        <section id="membros" class="section fade-in">
+            <h2 class="section-title">Membros</h2>
+            <div class="members-grid">
+                <!-- Serj Tankian -->
+                <article class="member-card">
+                    <div class="member-image" 
+                         style="background-image: url('https://i.pinimg.com/736x/46/79/d0/4679d008d6733fc7158b4ba116bea38a.jpg')"></div>
+                    <h3>Serj Tankian</h3>
+                    <p class="role">Vocal Principal, Teclado</p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/serjtankian/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://twitter.com/serjtankian" target="_blank"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </article>
+
+                <!-- Daron Malakian -->
+                <article class="member-card">
+                    <div class="member-image" 
+                         style="background-image: url('https://i.pinimg.com/736x/00/1b/94/001b9432dc56b538d7b9b203879245a2.jpg')"></div>
+                    <h3>Daron Malakian</h3>
+                    <p class="role">Guitarra, Vocal Secundário</p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/daronmalakian/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://twitter.com/daronmalakian" target="_blank"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </article>
+
+                <!-- Shavo Odadjian -->
+                <article class="member-card">
+                    <div class="member-image" 
+                         style="background-image: url('https://i.pinimg.com/736x/c2/ce/e4/c2cee40e9a51e7999d154d224a329dd8.jpg')"></div>
+                    <h3>Shavo Odadjian</h3>
+                    <p class="role">Baixo, Backing Vocal</p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/shavoodadjian/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://twitter.com/shavoodadjian" target="_blank"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </article>
+
+                <!-- John Dolmayan -->
+                <article class="member-card">
+                    <div class="member-image" 
+                         style="background-image: url('https://i.pinimg.com/736x/a9/15/6b/a9156be694733b570878417b71790000.jpg')"></div>
+                    <h3>John Dolmayan</h3>
+                    <p class="role">Bateria, Percussão</p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/johndolmayan/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://twitter.com/johndolmayan" target="_blank"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="albuns" class="section fade-in">
+            <h2 class="section-title">Principais Álbuns</h2>
+            <div class="albums-grid">
+                <!-- System of a Down (1998) -->
+                <article class="album-card">
+                    <div class="album-cover" 
+                         style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/b/be/System_of_a_Down-capa_%C3%A1lbum_autointitulado.jpg')"></div>
+                    <h3>System of a Down (1998)</h3>
+                    <div class="track-list">
+                        <span class="track"></i>♪ Sugar</span>
+                        <span class="track"></i>♪ Spiders</span>
+                        <span class="track"></i>♪ War?</span>
+                    </div>
+                </article>
+
+                <!-- Toxicity (2001) -->
+                <article class="album-card">
+                    <div class="album-cover" 
+                         style="background-image: url('https://upload.wikimedia.org/wikipedia/en/6/64/SystemofaDownToxicityalbumcover.jpg')"></div>
+                    <h3>Toxicity (2001)</h3>
+                    <div class="track-list">
+                        <span class="track"></i>♪ Chop Suey!</span>
+                        <span class="track"></i>♪ Toxicity</span>
+                        <span class="track"></i>♪ Aerials</span>
+                    </div>
+                </article>
+
+                <!-- Steal This Album! (2002) -->
+                <article class="album-card">
+                    <div class="album-cover" 
+                         style="background-image: url('https://i.pinimg.com/736x/63/a2/c7/63a2c70f860ae87bc4c6e08814750384.jpg')"></div>
+                    <h3>Steal This Album! (2002)</h3>
+                    <div class="track-list">
+                        <span class="track"></i>♪ Innervision</span>
+                        <span class="track"></i>♪ Boom!</span>
+                        <span class="track"></i>♪ Roulette</span>
+                    </div>
+                </article>
+
+                <!-- Mezmerize/Hypnotize (2005) -->
+                <article class="album-card">
+                    <div class="album-cover" 
+                         style="background-image: url('https://i.pinimg.com/736x/53/6a/21/536a21675dfc6f8e6b5c04f84106f408.jpg')"></div>
+                    <h3>Mezmerize (2005)</h3>
+                    <div class="track-list">
+                        <span class="track"></i>♪ B.Y.O.B.</span>
+                        <span class="track"></i>♪ Question!</span>
+                        <span class="track"></i>♪ Lost in Hollywood</span>
+                    </div>
+                </article>
+
+        </section>
+
+        <section id="curiosidades" class="section fade-in">
+            <h2 class="section-title">Curiosidades</h2>
+            <ul class="curiosidades-list">
+                <li class="curiosidade-item">
+                    <i class="fas fa-globe-americas"></i>
+                    <span>Todos os membros são de origem armênia</span>
+                </li>
+                <li class="curiosidade-item">
+                    <i class="fas fa-award"></i>
+                    <span>Indicados a 4 prêmios Grammy</span>
+                </li>
+                <li class="curiosidade-item">
+                    <i class="fas fa-book"></i>
+                    <span>Nome inspirado em um poema de Daron Malakian</span>
+                </li>
+                <li class="curiosidade-item">
+                    <i class="fas fa-handshake"></i>
+                    <span>Ativistas políticos e defensores do reconhecimento do Genocídio Armênio</span>
+                </li>
+                <li class="curiosidade-item">
+                    <i class="fas fa-record-vinyl"></i>
+                    <span>Venderam mais de 40 milhões de cópias mundialmente</span>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>© 2024 Tributo a System of a Down</p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/systemofadown" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://open.spotify.com/artist/5eAWCfyUhZtHHtBdNk56l1" target="_blank"><i class="fab fa-spotify"></i></a>
+                <a href="https://www.youtube.com/channel/UC7-YMmnc0ppcWmio8t1WdcA" target="_blank"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <svg style="position: absolute; height: 0; width: 0;">
+        <filter id="protanopia">
+            <feColorMatrix type="matrix"
+                values="0.567, 0.433, 0,     0, 0
+                        0.558, 0.442, 0,     0, 0
+                        0,     0.242, 0.758, 0, 0
+                        0,     0,     0,     1, 0"/>
+        </filter>
+        
+        <filter id="deuteranopia">
+            <feColorMatrix type="matrix"
+                values="0.625, 0.375, 0,   0, 0
+                        0.7,   0.3,   0,   0, 0
+                        0,     0.3,   0.7, 0, 0
+                        0,     0,     0,   1, 0"/>
+        </filter>
+
+        <filter id="tritanopia">
+            <feColorMatrix type="matrix"
+                values="0.95, 0.05,  0,     0, 0
+                        0,    0.433, 0.567, 0, 0
+                        0,    0.475, 0.525, 0, 0
+                        0,    0,     0,     1, 0"/>
+        </filter>
+    </svg>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
